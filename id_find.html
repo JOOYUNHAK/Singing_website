@@ -1,0 +1,35 @@
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+
+
+<body>
+<h1><center><font color=skyblue> ***아이디찾기*** </font></center> </h1>
+<h2><center><a href="main.php"> Haggis </a></center></h2>
+
+ <center><fieldset style="width:500; background:skyblue;">
+    <legend align=center>회원정보를 입력해주세요</legend>
+    <form method="post" action="id_find_process.php">
+
+    <p align=center><font color=white>이름:
+    <input type="text" size=4 name="UserName" placeholder="이름" required></font></p>
+
+    <br>
+
+    <p align=center><font color=white>주민등록번호:
+       <input type=text size=6 name="UserNo" placeholder="주민번호 앞자리"  maxlength="6" required>
+       -<input type="password" size="4" name="UserNo2" placeholder="0000000" maxlength="7" required></font></p>
+
+    <br><br>
+  <center>
+    <input type="submit" value="아이디 검색">
+    <a href="pwd_find.html"><input type="button" value="비밀번호찾기"></a>
+    <a href="login.html"><input type="button" value="로그인"></a>
+  </center>
+
+   </form>
+ </fieldset></center>
+
+</body>
+</html>

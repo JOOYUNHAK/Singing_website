@@ -1,0 +1,100 @@
+#paging {
+    font_size: 12px;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+
+
+#paging ul li{
+  float: left;
+  margin-left: 10px;
+  text-align: center;
+  list-style: none;
+}
+
+
+.fo_re{
+  font-weight: bold;
+  color: red;
+}
+
+#search {
+  margin-top: 30px;
+  text-align: center;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Sans-Serif', '돋움';
+}
+a {
+	text-decoration: none;
+}
+
+
+.fl {
+	float:left;
+}
+.tc {
+	text-align:center;
+}
+
+.table_list {
+	margin-top: 30px;
+}
+.table_list thead th{
+	height:30px;
+	border-top:4px solid #CCC;
+	border-bottom:2px solid #CCC;
+	font-weight: bold;
+	font-size: 17px;
+}
+.table_list tbody td{
+	text-align:center;
+	padding:9px 0;
+	border-bottom:2px solid #CCC; height:20px;
+	font-size: 13px;
+}
+
+#board {
+  margin-top:60px;
+	width: 900px;
+	position: relative;
+  word-break:break-all;
+}
+
+#info{
+    font-size: 16px;
+}
+#bar_line{
+  width:900px;
+  height:3px;
+  background: skyblue;
+  margin-top:20px;
+}
+
+#bar{
+  font-szie:16px;
+  color:#333;
+  position: absolute;
+  right: 0;
+}
+
+#bar > ul > li{
+  float:left;
+  margin-left:10px;
+  list-style: none;
+  margin-top:100px;
+}
+
+
+#button button{
+	background-color: rgba(0,0,0,0);
+  color:skyblue;
+  padding: 5px;
+  border: 1px solid skyblue;
+  position:absolute;
+  right: 0;
+}
